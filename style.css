@@ -1,46 +1,46 @@
-cuerpo {
-  Font-Family: Arial, Sans-serif;
-  fondo-color: #f9f9f9;
-  relleno: 30Px;
-  margen: 0;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 30px;
+  margin: 0;
 }
 
-H1 {
-  text-align: centro;
+h1 {
+  text-align: center;
   color: #003366;
 }
 
 .semestre {
-  fondo-color: #ffffff;
-  relleno: 15Px;
-  margen-abajo: 20Px;
-    frontera-izquierda.: 5  Px sólido #0077cc;
-  frontera-radio: 8Px;
-    sombra de caja: 0 0 10  Px rgba(0,0,0,0.05);
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #0077cc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
 .semestre h2 {
-  margen-top: 0;
+  margin-top: 0;
   color: #0077cc;
 }
 
 .ramo {
-  relleno: 8Px 12Px;
-  margen: 6Px 0;
-  fondo-color: # desempeñado;desempeñado;
-  frontera-radio: 6Px;
-  cursor: puntero;
-  fuente-peso: audaz;
-  transición: Fondo 0.2s;
+  padding: 8px 12px;
+  margin: 6px 0;
+  background-color: #e0f0ff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
 }
 
-.ramo:flotar {
-  fondo-color: #c6e7ff;
+.ramo:hover {
+  background-color: #c6e7ff;
 }
 
 .info {
- Mostrar: display: Ninguno;
- Relleno-izquierda: 20 acolchado-izquierda: 20Px;
-   Tamaño de fuente: 14   Fuente-tamaño: 14Px;
- color: #444; color: #444;
+  display: none;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #444;
 }
